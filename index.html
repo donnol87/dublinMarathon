@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Regsitration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="header">Dublin Marathon 2023</h1>
+        <div id="race">
+            <h2 id="register">Race Registrtaion!</h2>
+            <form action="">
+                <div id="label">
+                    <label for="firstName">First Name:
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    </label>
+                    <label for="lastName">Last Name:
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                    </label>
+                </div>
+                <div id="select">
+                    <p>Select a race:</p>
+                    <div>
+                        <input type="radio" name="race" id="5k" value="5k">
+                        <label for="5k">Run 5k</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race" id="half" value="half">
+                        <label for="half">Half Marathon</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race" id="full" value="full">
+                        <label for="full">Marathon</label>
+                    </div>
+                </div>
+                <br>
+                <div id="contactdetails">
+                    <label for="email">Email</label>
+                    <input type="email" name="password" id="email" placeholder="Email" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <br>
+                <div id="age">
+                    <label for="ageGroup">Select Age Group</label>
+                    <select name="ageGroup" id="ageGroup" required>
+                        <option value="">--Please select an age group--</option>
+                        <option value="18-30">18-30</option>
+                        <option value="30-40">30-40</option>
+                        <option value="40-50">40-50</option>
+                    </select>
+                </div>
+                <div id="button">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

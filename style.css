@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(0deg, rgba(73, 73, 73, 0.3), rgba(236, 178, 17, 0.849)), url(/martins-zemlickis-NPFu4GfFZ7E-unsplash.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+
+#register {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#label{
+    text-align: center;
+}
+
+#race {
+    background-color: azure;
+    padding: 2em;
+}
+
+#button {
+    text-align: center;
+    margin: 1em;
+    
+}
+
+#age {
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+#contactdetails {
+    text-align: center;
+}
+
+#select {
+    text-align: center;
+}
