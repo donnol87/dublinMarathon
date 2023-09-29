@@ -32,7 +32,6 @@ body {
 #button {
     text-align: center;
     margin: 1em;
-    
 }
 
 #age {
@@ -46,4 +45,12 @@ body {
 
 #select {
     text-align: center;
+}
+#press{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    padding: 1em;
+    border-radius: .5em;
 }
