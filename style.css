@@ -4,7 +4,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(0deg, rgba(73, 73, 73, 0.3), rgba(236, 178, 17, 0.849)), url(/martins-zemlickis-NPFu4GfFZ7E-unsplash.jpg);
+    background-image: linear-gradient(0deg, rgba(73, 73, 73, 0.1), rgba(236, 178, 17, 0.849)), url(/martins-zemlickis-NPFu4GfFZ7E-unsplash.jpg);
     background-size: cover;
     background-size: 150%;
     background-repeat: no-repeat;
@@ -15,7 +15,8 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 5em;
-    margin-top: -4em;
+    position: relative;
+    top: -1em;
 }
 
 #register {
@@ -32,6 +33,15 @@ body {
     /* width style then color */
     border: medium inset black;
     border-radius: 30px;
+    position: relative;
+    top: -5em;
+    margin: auto;
+}
+#race:hover{
+    transform: scale(1.01);
+    border: 3px rgb(255, 208, 0) solid;
+    box-shadow: 5px 5px 15px black;
+    transform: translateY(-.75em);
 }
 
 #button {
@@ -58,4 +68,11 @@ body {
     border:none;
     padding: 1em;
     border-radius: .5em;
+}
+#press:hover{
+    background: rgba(236, 178, 17, 0.849);
+    color: black;
+    font-size: 1em;
+    transition: .5s;
+    cursor:pointer
 }
